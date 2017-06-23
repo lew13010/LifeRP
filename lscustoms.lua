@@ -440,7 +440,7 @@ local lsc = {
 			name = "windows",
 			buttons = { 
 				{name = "None",tint = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Pure Black",tint = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Noir Profond",tint = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Fumé Foncé",tint = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Fumé Clair",tint = 3, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Limo",tint = 4, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -944,27 +944,27 @@ local lsc = {
 				{name = "Loops", wtype = 6, modtype = 24, mod = 12, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 			}
 		},["lights"] = { 
-			title = "lights", 
-			name = "lights",
+			title = "Phares", 
+			name = "Eclairage",
 			buttons = { 
-				{name = "Headlights", description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Neon Kits", description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Phares", description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Kits Néon", description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["neonkits"] = { 
-			title = "neonkits", 
-			name = "neonkits",
+			title = "Kits Néon", 
+			name = "Kits Néon",
 			buttons = { 
-				{name = "Neon Layout", description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Neon Color", description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Support Néon", description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Couleur Néon", description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["neonlayout"] = { 
-			title = "neon layout", 
-			name = "neonlayout",
+			title = "Support Néon", 
+			name = "Support Néon",
 			buttons = { 
-				{name = "None",costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Front,Back and Sides",costs =0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Aucun",costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Avant, Arrière et Côtés",costs =0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["neoncolor"] = { 
@@ -986,11 +986,11 @@ local lsc = {
 			}
 		},
 		["headlights"] = { 
-			title = "headlights", 
-			name = "headlights",
+			title = "Phares", 
+			name = "Phares",
 			buttons = { 
-				{name = "Stock Lights",mod = false, modtype = 22,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Xenon Lights",mod = true,modtype = 22,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Phares de Série",mod = false, modtype = 22,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Phares au Xénon",mod = true,modtype = 22,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["plate"] = { 
@@ -1005,86 +1005,86 @@ local lsc = {
 			}
 		},["repair"] = { 
 		title = "CATEGORIES", 
-		name = "repair",
+		name = "Réparation",
 		buttons = { 
-			{name = "Repair vehicle", description = "Full body repair and engine service.", costs = 0, centre = 0, font = 0, scale = 0.4}
+			{name = "Réparer le véhicule", description = "Faites réparer la carrosserie et entretenir le moteur.", costs = 0, centre = 0, font = 0, scale = 0.4}
 			
 		}
 	},
 	["armor"] = { 
-		title = "armor", 
-		name = "armor",
+		title = "Blindage", 
+		name = "Blindage",
 		buttons = { 
-			{name = "None",modtype = 16, mod = -1,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Armor Upgrade 20%",modtype = 16, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Armor Upgrade 40%",modtype = 16, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Armor Upgrade 60%",modtype = 16, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Armor Upgrade 80%",modtype = 16, mod = 3, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Armor Upgrade 100%",modtype = 16, mod = 4, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+			{name = "Aucun",modtype = 16, mod = -1,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Blindage Amélioré de 20%",modtype = 16, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Blindage Amélioré de 40%",modtype = 16, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Blindage Amélioré de 60%",modtype = 16, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Blindage Amélioré de 80%",modtype = 16, mod = 3, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Blindage Amélioré de 100%",modtype = 16, mod = 4, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			
 		}
 	},
 	["brakes"] = { 
-		title = "brakes", 
-		name = "brakes",
+		title = "Freins", 
+		name = "Freins",
 		buttons = { 
-			{name = "Stock Brakes",modtype = 12, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Street Brakes",modtype = 12, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Sport Brakes",modtype = 12, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Race Brakes",modtype = 12, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+			{name = "Freins de Série",modtype = 12, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Freins de Rue",modtype = 12, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Freins de Sport",modtype = 12, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Freins de Course",modtype = 12, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			
 		}
 	},
 	["engine"] = { 
-		title = "engine tunes", 
-		name = "engine",
+		title = "Réglages du Moteur", 
+		name = "Moteur",
 		buttons = { 
-			{name = "EMS Upgrade, Level 1",modtype = 11, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "EMS Upgrade, Level 2",modtype = 11, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "EMS Upgrade, Level 3",modtype = 11, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "EMS Upgrade, Level 4",modtype = 11, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+			{name = "Reprog Moteur Niv. 1",modtype = 11, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Reprog Moteur Niv. 2",modtype = 11, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Reprog Moteur Niv. 3",modtype = 11, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+			{name = "Reprog Moteur Niv. 4",modtype = 11, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 		}
 	},
 	["horn"] = { 
-			title = "horns", 
-			name = "horn",
+			title = "Klaxons", 
+			name = "Klaxon",
 			buttons = { 
-				{name = "Stock Horn",modtype = 14, mod = -1,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Truck Horn",modtype = 14, mod = false,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Police Horn",modtype = 14, mod = 1,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Clown Horn",modtype = 14, mod = 2,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Musical Horn 1",modtype = 14, mod = 3,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Musical Horn 2",modtype = 14, mod = 4,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Musical Horn 3",modtype = 14, mod = 5,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Musical Horn 4",modtype = 14, mod = 6,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Musical Horn 5",modtype = 14, mod = 7,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Sadtrombone Horn",modtype = 14, mod = 8,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 1",modtype = 14, mod = 9,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 2",modtype = 14, mod = 10,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 3",modtype = 14, mod = 11,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 4",modtype = 14, mod = 12,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 5",modtype = 14, mod = 13,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 6",modtype = 14, mod = 14,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Calssical Horn 7",modtype = 14, mod = 15,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scaledo Horn",modtype = 14, mod = 16,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scalere Horn",modtype = 14, mod = 17,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scalemi Horn",modtype = 14, mod = 18,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scalefa Horn",modtype = 14, mod = 19,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scalesol Horn",modtype = 14, mod = 20,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scalela Horn",modtype = 14, mod = 21,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scaleti Horn",modtype = 14, mod = 22,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Scaledo Horn High",modtype = 14, mod = 23,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Jazz Horn 1",modtype = 14, mod = 25,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Jazz Horn 2",modtype = 14, mod = 26,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Jazz Horn 3",modtype = 14, mod = 27,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Jazzloop Horn",modtype = 14, mod = 28,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Starspangban Horn 1",modtype = 14, mod = 29,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Starspangban Horn 2",modtype = 14, mod = 30,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Starspangban Horn 3",modtype = 14, mod = 31,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Starspangban Horn 4",modtype = 14, mod = 32,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Classicalloop Horn 1",modtype = 14, mod = 33,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Classical Horn 8",modtype = 14, mod = 34,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Classicalloop Horn 2",modtype = 14, mod = 35,costs =0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Klaxon de Série",modtype = 14, mod = -1,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon de Camion",modtype = 14, mod = false,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon de Flix",modtype = 14, mod = 1,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon de Cown",modtype = 14, mod = 2,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Musical 1",modtype = 14, mod = 3,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Musical 2",modtype = 14, mod = 4,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Musical 3",modtype = 14, mod = 5,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Musical 4",modtype = 14, mod = 6,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Musical 5",modtype = 14, mod = 7,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Trombone Triste",modtype = 14, mod = 8,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 1",modtype = 14, mod = 9,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 2",modtype = 14, mod = 10,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 3",modtype = 14, mod = 11,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 4",modtype = 14, mod = 12,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 5",modtype = 14, mod = 13,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 6",modtype = 14, mod = 14,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 7",modtype = 14, mod = 15,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Do",modtype = 14, mod = 16,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Ré",modtype = 14, mod = 17,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Mi",modtype = 14, mod = 18,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Fa",modtype = 14, mod = 19,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Sol",modtype = 14, mod = 20,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - La",modtype = 14, mod = 21,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Si",modtype = 14, mod = 22,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Gamme - Do (sup)",modtype = 14, mod = 23,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Jazzy 1",modtype = 14, mod = 25,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Jazzy 2",modtype = 14, mod = 26,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Jazzy 3",modtype = 14, mod = 27,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Jazzy Long",modtype = 14, mod = 28,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Hymne Américain 1",modtype = 14, mod = 29,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Hymne Américain 2",modtype = 14, mod = 30,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Hymne Américain 3",modtype = 14, mod = 31,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Hymne Américain 4",modtype = 14, mod = 32,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique Long 1",modtype = 14, mod = 33,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique 8",modtype = 14, mod = 34,costs =0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Klaxon Classique Long 2",modtype = 14, mod = 35,costs =0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 	}
@@ -1157,17 +1157,17 @@ function DriveInGarage()
 			for i = 0,16 do
 				if GetNumVehicleMods(veh,i) ~= nil and GetNumVehicleMods(veh,i) ~= false then
 						if i == 16 then
-							insrt(lsc.menu["main"].buttons, {name = "Armor", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Blindage", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 15 then
 							insrt(lsc.menu["main"].buttons, {name = "Suspension", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 13 then
 							insrt(lsc.menu["main"].buttons, {name = "Transmission", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 14 then
-							insrt(lsc.menu["main"].buttons, {name = "Horn", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Klaxon", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 12 then
-							insrt(lsc.menu["main"].buttons, {name = "Brakes", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Freins", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 11 then
-							insrt(lsc.menu["main"].buttons, {name = "Engine", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Moteur", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 0 then
 							insrt(lsc.menu["main"].buttons, {name = "Spoiler", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 1 then
@@ -1199,7 +1199,7 @@ function DriveInGarage()
 			if bumper then
 			insrt(lsc.menu["main"].buttons, {name = "Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
 			end
-			insrt(lsc.menu["main"].buttons, {name = "Lights", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Eclairage", description = "", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Plate", description = "", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Peinture", description = "Modifiez l'apparence du véhicule", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Turbo", description = "", centre = 0, font = 0, scale = 0.4})
@@ -1643,11 +1643,11 @@ Citizen.CreateThread(function()
 							drawMenuButton(button,lsc.menu.x,y,selected)
 							if button.costs ~= nil then
 								if lsc.currentmenu == "headlights" then
-									if button.name == "Stock Lights"  then
+									if button.name == "Phares de Série"  then
 										if not IsToggleModOn(veh, button.modtype)  then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										end
-									elseif button.name == "Xenon Lights"  then
+									elseif button.name == "Phares au Xénon"  then
 										if IsToggleModOn(veh, button.modtype) then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
@@ -1711,11 +1711,11 @@ Citizen.CreateThread(function()
 										end
 									end
 								elseif lsc.currentmenu == "neonlayout" then
-									if button.name == "None" then
+									if button.name == "Aucun" then
 										if IsVehicleNeonLightEnabled(veh, 0) == false and IsVehicleNeonLightEnabled(veh, 1) == false  and IsVehicleNeonLightEnabled(veh, 2) == false and IsVehicleNeonLightEnabled(veh, 3) == false then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										end
-									elseif button.name == "Front,Back and Sides" then
+									elseif button.name == "Avant,Arrière et Côtés" then
 										if IsVehicleNeonLightEnabled(veh, 0)  and IsVehicleNeonLightEnabled(veh, 1)  and IsVehicleNeonLightEnabled(veh, 2)  and IsVehicleNeonLightEnabled(veh, 3)  then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
@@ -1896,23 +1896,23 @@ function ButtonSelected(button)
 	local ped = GetPlayerPed(-1)
 	local car = GetVehiclePedIsUsing(ped)
 	if lsc.currentmenu == "repair" then
-		if button.name == "Repair vehicle" then
+		if button.name == "Réparer le véhicule" then
 			SetVehicleFixed(car)
 			OpenMenu('main')
 		end
 	elseif lsc.currentmenu == "main" then
 		if button.name == "Peinture" then
 			OpenMenu("respray")
-		elseif button.name == "Armor" then
+		elseif button.name == "Blindage" then
 			SetVehicleModKit(car,0)
 			OpenMenu("armor")
-		elseif button.name == "Brakes" then
+		elseif button.name == "Freins" then
 			SetVehicleModKit(car,0)
 			OpenMenu("brakes")
 		elseif button.name == "Bumpers" then
 			SetVehicleModKit(car,0)
 			OpenMenu("bumpers")
-		elseif button.name == "Engine" then
+		elseif button.name == "Moteur" then
 			SetVehicleModKit(car,0)
 			OpenMenu("engine")
 		elseif button.name == "Exhaust" then
@@ -1927,7 +1927,7 @@ function ButtonSelected(button)
 		elseif button.name == "Horn" then
 			SetVehicleModKit(car,0)
 			OpenMenu("horn")
-		elseif button.name == "Lights" then
+		elseif button.name == "Eclairage" then
 			SetVehicleModKit(car,0)
 			OpenMenu("lights")
 			
@@ -1952,7 +1952,7 @@ function ButtonSelected(button)
 		elseif button.name == "Plate" then
 			SetVehicleModKit(car,0)
 			OpenMenu("plate")
-		elseif button.name == "Horn" then
+		elseif button.name == "Klaxon" then
 			SetVehicleModKit(car,0)
 			OpenMenu("horn")
 		elseif button.name == "Grille" then
@@ -2030,23 +2030,23 @@ function ButtonSelected(button)
 			OpenMenu("rearbumper")
 		end
 	elseif lsc.currentmenu == "lights" then
-		if button.name == "Headlights" then
+		if button.name == "Eclairage" then
 			SetVehicleModKit(car,0)
 			OpenMenu('headlights')
-		elseif button.name == "Neon Kits" then
+		elseif button.name == "Kits Néon" then
 			OpenMenu('neonkits')
 		end 
 	elseif lsc.currentmenu == "neonkits" then
-		if button.name == "Neon Layout" then
+		if button.name == "Support Néon" then
 			OpenMenu('neonlayout')
-		elseif button.name == "Neon Color" then
+		elseif button.name == "Couleur Néon" then
 			OpenMenu('neoncolor')
 		end 
 	elseif lsc.currentmenu == "headlights" then
-		if button.name == "Stock Lights" then
+		if button.name == "Phares de Série" then
 			ToggleVehicleMod(car, 22, false)
 		
-		elseif button.name == "Xenon Lights" then
+		elseif button.name == "Phares au Xénon" then
 			ToggleVehicleMod(car, 22, true)
 		end 
 	elseif lsc.currentmenu == "plate" then
@@ -2128,7 +2128,7 @@ function ButtonSelected(button)
 			SetVehicleTyreSmokeColor(car,button.color[1],button.color[2],button.color[3])
 		end
 	elseif lsc.currentmenu == "neonlayout" then
-		if button.name == "None" then
+		if button.name == "Aucun" then
 		SetVehicleNeonLightEnabled(car,0,false)
 		SetVehicleNeonLightEnabled(car,1,false)
 		SetVehicleNeonLightEnabled(car,2,false)
