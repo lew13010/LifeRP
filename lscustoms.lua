@@ -952,7 +952,7 @@ local lsc = {
 			}
 		},
 		["neonkits"] = { 
-			title = "Kits Néon", 
+			title = "Kits Neon", 
 			name = "Kits Néon",
 			buttons = { 
 				{name = "Support Néon", description = "", centre = 0, font = 0, scale = 0.4},
@@ -960,7 +960,7 @@ local lsc = {
 			}
 		},
 		["neonlayout"] = { 
-			title = "Support Néon", 
+			title = "Support Neon", 
 			name = "Support Néon",
 			buttons = { 
 				{name = "Aucun",costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -968,8 +968,8 @@ local lsc = {
 			}
 		},
 		["neoncolor"] = { 
-			title = "neon color", 
-			name = "neoncolor",
+			title = "Couleur Neon", 
+			name = "Couleur Neon",
 			buttons = { 
 				{name = "White", color = {255,255,255}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Bleu", color = {0,0,255}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -1004,7 +1004,7 @@ local lsc = {
 				{name = "Yellow on Black",plateindex = 1,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},["repair"] = { 
-		title = "CATEGORIES", 
+		title = "Reparation", 
 		name = "Réparation",
 		buttons = { 
 			{name = "Réparer le véhicule", description = "Faites réparer la carrosserie et entretenir le moteur.", costs = 0, centre = 0, font = 0, scale = 0.4}
@@ -1036,7 +1036,7 @@ local lsc = {
 		}
 	},
 	["engine"] = { 
-		title = "Réglages du Moteur", 
+		title = "Reglages du Moteur", 
 		name = "Moteur",
 		buttons = { 
 			{name = "Reprog Moteur Niv. 1",modtype = 11, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -1606,7 +1606,7 @@ Citizen.CreateThread(function()
 						outside = pos.outside						
 						if GetDistanceBetweenCoords(outside.x,outside.y,outside.z,GetEntityCoords(ped)) <= f(5) then
 							if pos.locked == false then
-								drawTxt("Press ~b~ENTER~w~ to enter ~b~Los Santos Customs ",4,1,0.5,0.8,1.0,255,255,255,255)
+								drawTxt("Appuyez sur ~b~ENTRER~w~ pour accéder au ~b~Los Santos Customs ",4,1,0.5,0.8,1.0,255,255,255,255)
 								if IsControlJustPressed(1,201) then
 									
 										lsc.currentpos = pos
@@ -1615,7 +1615,7 @@ Citizen.CreateThread(function()
 								
 								end
 							else
-								drawTxt("~r~Locked, please wait",4,1,0.5,0.8,1.0,255,255,255,255)
+								drawTxt("~r~Fermer, veulliez patienter",4,1,0.5,0.8,1.0,255,255,255,255)
 							end
 						end
 					end
@@ -1924,7 +1924,7 @@ function ButtonSelected(button)
 		elseif button.name == "Hood" then
 			SetVehicleModKit(car,0)
 			OpenMenu("hood")
-		elseif button.name == "Horn" then
+		elseif button.name == "Klaxon" then
 			SetVehicleModKit(car,0)
 			OpenMenu("horn")
 		elseif button.name == "Eclairage" then
@@ -2030,7 +2030,7 @@ function ButtonSelected(button)
 			OpenMenu("rearbumper")
 		end
 	elseif lsc.currentmenu == "lights" then
-		if button.name == "Eclairage" then
+		if button.name == "Phares" then
 			SetVehicleModKit(car,0)
 			OpenMenu('headlights')
 		elseif button.name == "Kits Néon" then
