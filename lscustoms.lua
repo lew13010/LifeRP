@@ -134,7 +134,7 @@ local lsc = {
 				{name = "Argent Pierre",costs = 0, colorindex = 8, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Argent Nocturne",costs = 0, colorindex = 9, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Argent Béton",costs = 0, colorindex = 10, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Rouge",costs = 0, colorindex = 27, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Rouge",costs = 1500, colorindex = 27, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Rouge Torino",costs = 0, colorindex = 28, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Rouge Formula",costs = 0, colorindex = 29, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Rouge Lave",costs = 0, colorindex = 150, description = "", centre = 0, font = 0, scale = 0.4},
@@ -1007,7 +1007,7 @@ local lsc = {
 		title = "Reparation", 
 		name = "Réparation",
 		buttons = { 
-			{name = "Réparer le véhicule", description = "Faites réparer la carrosserie et entretenir le moteur.", costs = 0, centre = 0, font = 0, scale = 0.4}
+			{name = "Réparer le véhicule", description = "Faites réparer la carrosserie et entretenir le moteur.", costs = 500, centre = 0, font = 0, scale = 0.4}
 			
 		}
 	},
@@ -1020,7 +1020,7 @@ local lsc = {
 			{name = "Blindage Amélioré de 40%",modtype = 16, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 			{name = "Blindage Amélioré de 60%",modtype = 16, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 			{name = "Blindage Amélioré de 80%",modtype = 16, mod = 3, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-			{name = "Blindage Amélioré de 100%",modtype = 16, mod = 4, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+			{name = "Blindage Amélioré de 100%",modtype = 16, mod = 4, costs = 500, description = "", centre = 0, font = 0, scale = 0.4}
 			
 		}
 	},
