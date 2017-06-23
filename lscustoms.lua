@@ -49,15 +49,15 @@ local lsc = {
 				
 			}
 		},["exhaust"] = { 
-			title = "exhaust", 
-			name = "exhaust",
+			title = "Echappement", 
+			name = "Echappement",
 			buttons = { 
 				
 			}
 		},
 		["fenders"] = { 
-			title = "fenders", 
-			name = "fenders",
+			title = "Carrosseries", 
+			name = "Carrosseries",
 			buttons = { 
 				
 			}
@@ -76,30 +76,30 @@ local lsc = {
 				
 			}
 		},["rollcage"] = { 
-			title = "rollcage", 
-			name = "rollcage",
+			title = "Arceaux de Securite", 
+			name = "Arceaux de Sécurité",
 			buttons = { 
 				
 			}
 		},
 		["roof"] = { 
-			title = "roof", 
-			name = "roof",
+			title = "Toits", 
+			name = "Toit",
 			buttons = { 
 				
 			}
 		},
 		["skirts"] = { 
-			title = "skirts", 
-			name = "skirts",
+			title = "Bas de Caisse", 
+			name = "Bas de Caisse",
 			buttons = { 
 				
 			}
 		}
 		,
 		["spoiler"] = { 
-			title = "spoiler", 
-			name = "spoiler",
+			title = "Ailerons", 
+			name = "Aileron",
 			buttons = { 
 				
 			}
@@ -355,7 +355,7 @@ local lsc = {
 					{name = "Or Brossé",colorindex = 159,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 				}
 			},["wheelcolor"] = { 
-			title = "wheel colors", 
+			title = "Couleur des Jantes", 
 			name = "wheelcolor",
 			buttons = { 
 				{name = "Noir",costs = 0, colorindex = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -436,8 +436,8 @@ local lsc = {
 			}
 		},
 		["windows"] = { 
-			title = "windows", 
-			name = "windows",
+			title = "Teintes", 
+			name = "Fenêtres",
 			buttons = { 
 				{name = "None",tint = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Noir Profond",tint = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -448,14 +448,14 @@ local lsc = {
 			}
 		},
 		["wheelaccessories"] = { 
-			title = "wheel accessories", 
+			title = "Accessoires de Roue", 
 			name = "wheelaccessories",
 			buttons = { 
-				{name = "Stock Tires", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Custom Tires", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Bulletproof Tires", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Pneus de Série", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Pneus Custom", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Pneus à l'épreuve des Balles", costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "White Tire Smoke", color = {254,254,254}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Black Tire Smoke", color = {1,1,1}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Fumée de Pneus Noire", color = {1,1,1}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Blue Tire Smoke", color = {0,150,255}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Yellow Tire Smoke", color = {255,255,50}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Orange Tire Smoke", color = {255,153,51}, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -677,21 +677,21 @@ local lsc = {
 			title = "suspensions", 
 			name = "suspensions",
 			buttons = { 
-				{name = "Stock Suspension",mod = -1,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Lowered Suspension",mod = false,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Street Suspension",mod = 1,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Sport Suspension",mod = 2,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Competition Suspension",mod = 3,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Suspension de Série",mod = -1,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Suspension Rabaissée",mod = false,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Suspension de Rue",mod = 1,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Suspension de Sport",mod = 2,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Suspension de Compétition",mod = 3,modtype =15, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["transmission"] = { 
 			title = "transmissions", 
 			name = "transmission",
 			buttons = { 
-				{name = "Stock Transmission",mod = -1,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Street Transmission",mod = false,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Sports Transmission",mod = 1,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Race Transmission",mod = 2,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Transmission de Série",mod = -1,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Transmission de Rue",mod = false,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Transmission de Sport",mod = 1,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Transmission de Course",mod = 2,modtype =13, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		}
 		,
@@ -699,38 +699,38 @@ local lsc = {
 			title = "turbo", 
 			name = "turbo",
 			buttons = { 
-				{name = "None",mod = false,modtype =18, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Turbo Tuning",mod = true,modtype =18, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Aucun",mod = false,modtype =18, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Tuning Turbo",mod = true,modtype =18, costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["wheels"] = { 
-			title = "wheels", 
-			name = "wheels",
+			title = "Roues", 
+			name = "Roues",
 			buttons = { 
-				{name = "Wheel Type", description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Wheel Color", description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Wheel Accessories", description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Type de Roue", description = "Selectionnez des jantes et leurs couleurs, puis confirmez.", centre = 0, font = 0, scale = 0.4},
+				{name = "Couleur des Jantes", description = "Customisez la couleur des jantes.", centre = 0, font = 0, scale = 0.4},
+				{name = "Accessoires de Roue", description = "Installez des pneus à l'épreuve des balles et customisez la fumée pour les burns.", centre = 0, font = 0, scale = 0.4}
 			}
 		},
 		["wheeltype"] = { 
-			title = "wheel types", 
+			title = "Types de Roue", 
 			name = "wheeltype",
 			buttons = { 
 				
 				{name = "Sport", wtype = false, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Muscle", wtype = 1, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Muscle Car", wtype = 1, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Lowrider", wtype = 2, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Suv", wtype = 3, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Offroad", wtype = 4, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Tuner", wtype = 5, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Highend", wtype = 7, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Tout-Terrain", wtype = 4, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Tuning", wtype = 5, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Haut de Gamme", wtype = 7, description = "", centre = 0, font = 0, scale = 0.4},
 			}
 		},
 		["sport"] = { 
 			title = "sport", 
 			name = "sport",
 			buttons = { 
-				{name = "Stock", wtype = false, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = false, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Inferno", wtype = false, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Deepfive", wtype = false, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Lozspeed", wtype = false, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -761,7 +761,7 @@ local lsc = {
 			title = "suv", 
 			name = "suv",
 			buttons = { 
-				{name = "Stock", wtype = 3, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 3, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Vip", wtype = 3, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Benefactor", wtype = 3, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Cosmo", wtype = 3, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -784,10 +784,10 @@ local lsc = {
 			}
 		},
 		["offroad"] = { 
-			title = "offroad", 
+			title = "Tout-Terrain", 
 			name = "offroad",
 			buttons = { 
-				{name = "Stock", wtype = 4, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 4, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Raider", wtype = 4, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Mudslinger", modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Nevis", wtype = 4, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -801,10 +801,10 @@ local lsc = {
 			}
 		},
 		["tuner"] = { 
-			title = "tuner", 
+			title = "Tuning", 
 			name = "tuner",
 			buttons = { 
-				{name = "Stock", wtype = 5, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 5, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Cosmo", wtype = 5, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Supermesh", wtype = 5, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Outsider", wtype = 5, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -832,10 +832,10 @@ local lsc = {
 			}
 		},
 		["highend"] = { 
-			title = "highend", 
+			title = "Haut de Gamme", 
 			name = "highend",
 			buttons = { 
-				{name = "Stock", wtype = 7, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 7, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Shadow", wtype = 7, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Hyper", wtype = 7, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Blade", wtype = 7, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -862,7 +862,7 @@ local lsc = {
 			title = "lowrider", 
 			name = "lowrider",
 			buttons = { 
-				{name = "Stock", wtype = 2, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 2, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Flare", wtype = 2, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Wired", wtype = 2, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Triplegolds", wtype = 2, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -881,10 +881,10 @@ local lsc = {
 			}
 		},
 		["muscle"] = { 
-			title = "muscle", 
+			title = "muscle car", 
 			name = "muscle",
 			buttons = { 
-				{name = "Stock", wtype = 1, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 1, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Classicfive", wtype = 1, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Dukes", wtype = 1, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Musclefreak", wtype = 1, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -905,10 +905,10 @@ local lsc = {
 			}
 		},
 		["frontwheel"] = { 
-			title = "front wheel", 
+			title = "Roue Avant", 
 			name = "frontwheel",
 			buttons = { 
-				{name = "Stock", wtype = 6, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 6, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Speedway", wtype = 6, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Streetspecial", wtype = 6, modtype = 23, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Racer", wtype = 6, modtype = 23, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -925,10 +925,10 @@ local lsc = {
 			}
 		},
 		["backwheel"] = { 
-			title = "back wheel", 
+			title = "Roue Arriere", 
 			name = "backwheel",
 			buttons = { 
-				{name = "Stock", wtype = 6, modtype = 24, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jantes de Série", wtype = 6, modtype = 24, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Speedway", wtype = 6, modtype = 24, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Streetspecial", wtype = 6, modtype = 24, mod = 1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Racer", wtype = 6, modtype = 24, mod = 2, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -994,14 +994,14 @@ local lsc = {
 			}
 		},
 		["plate"] = { 
-			title = "plates", 
-			name = "plate",
+			title = "Plaque", 
+			name = "Plaque",
 			buttons = { 
-				{name = "Blue on White 1",plateindex = false,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Blue on White 2",plateindex = 3,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Blue on White 3",plateindex = 4,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Yellow on Blue",plateindex = 2,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Yellow on Black",plateindex = 1,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
+				{name = "Bleu sur Blanc 1",plateindex = false,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Bleu sur Blanc 2",plateindex = 3,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Bleu sur Blanc 3",plateindex = 4,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jaune sur Bleu",plateindex = 2,costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Jaune sur Noir",plateindex = 1,costs = 0, description = "", centre = 0, font = 0, scale = 0.4}
 			}
 		},["repair"] = { 
 		title = "Reparation", 
@@ -1169,7 +1169,7 @@ function DriveInGarage()
 						elseif i == 11 then
 							insrt(lsc.menu["main"].buttons, {name = "Moteur", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 0 then
-							insrt(lsc.menu["main"].buttons, {name = "Spoiler", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Aileron", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 1 then
 							bumper = true
 							insrt(lsc.menu["bumpers"].buttons, {name = "Front Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
@@ -1177,21 +1177,21 @@ function DriveInGarage()
 							bumper = true
 							insrt(lsc.menu["bumpers"].buttons, {name = "Rear Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 3 then
-							insrt(lsc.menu["main"].buttons, {name = "Skirts", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Bas de Caisse", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 4 then
-							insrt(lsc.menu["main"].buttons, {name = "Exhaust", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Echappement", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 5 then
-							insrt(lsc.menu["main"].buttons, {name = "Roll Cage", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Arceaux de Sécurité", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 6 then
 							insrt(lsc.menu["main"].buttons, {name = "Grille", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 7 then
 							insrt(lsc.menu["main"].buttons, {name = "Hood", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 8 then
-							insrt(lsc.menu["main"].buttons, {name = "Fenders", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Carrosseries", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 9 then
 							--insrt(lsc.menu["main"].buttons, {name = "Fenders2", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 10 then
-							insrt(lsc.menu["main"].buttons, {name = "Roof", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Toit", description = "", centre = 0, font = 0, scale = 0.4})
 						end
 				end
 			end
@@ -1200,11 +1200,11 @@ function DriveInGarage()
 			insrt(lsc.menu["main"].buttons, {name = "Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
 			end
 			insrt(lsc.menu["main"].buttons, {name = "Eclairage", description = "", centre = 0, font = 0, scale = 0.4})
-			insrt(lsc.menu["main"].buttons, {name = "Plate", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Plaque", description = "", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Peinture", description = "Modifiez l'apparence du véhicule", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Turbo", description = "", centre = 0, font = 0, scale = 0.4})
-			insrt(lsc.menu["main"].buttons, {name = "Wheels", description = "", centre = 0, font = 0, scale = 0.4})
-			insrt(lsc.menu["main"].buttons, {name = "Windows", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Roues", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Fenêtres", description = "", centre = 0, font = 0, scale = 0.4})
 			if IsThisModelABike(GetEntityModel(veh)) then
 				lsc.menu["wheeltype"].buttons = {}
 				insrt(lsc.menu["wheeltype"].buttons, {name = "Front Wheel", wtype = 6, description = "", centre = 0, font = 0, scale = 0.4})
@@ -1656,11 +1656,11 @@ Citizen.CreateThread(function()
 									end
 
 								elseif lsc.currentmenu == "turbo" then
-									if button.name == "None"  then
+									if button.name == "Aucun"  then
 										if not IsToggleModOn(veh, button.modtype)  then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										end
-									elseif button.name == "Turbo Tuning"  then
+									elseif button.name == "Tuning Turbo"  then
 										if IsToggleModOn(veh, button.modtype) then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
@@ -1771,7 +1771,7 @@ Citizen.CreateThread(function()
 										else
 											drawMenuCost(button,lsc.menu.x,y,selected)
 										end
-									elseif button.name == "Bulletproof Tires" then
+									elseif button.name == "Pneus à l'épreuve des Balles" then
 										if GetVehicleTyresCanBurst(veh) == false then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
@@ -1915,10 +1915,10 @@ function ButtonSelected(button)
 		elseif button.name == "Moteur" then
 			SetVehicleModKit(car,0)
 			OpenMenu("engine")
-		elseif button.name == "Exhaust" then
+		elseif button.name == "Echappement" then
 			SetVehicleModKit(car,0)
 			OpenMenu("exhaust")
-		elseif button.name == "Fenders" then
+		elseif button.name == "Carrosseries" then
 			SetVehicleModKit(car,0)
 			OpenMenu("fenders")
 		elseif button.name == "Hood" then
@@ -1931,16 +1931,16 @@ function ButtonSelected(button)
 			SetVehicleModKit(car,0)
 			OpenMenu("lights")
 			
-		elseif button.name == "Roll Cage" then
+		elseif button.name == "Arceaux de Sécurité" then
 			SetVehicleModKit(car,0)
 			OpenMenu("rollcage")
-		elseif button.name == "Roof" then
+		elseif button.name == "Toit" then
 			SetVehicleModKit(car,0)
 			OpenMenu("roof")
-		elseif button.name == "Skirts" then
+		elseif button.name == "Bas de Caisse" then
 			SetVehicleModKit(car,0)
 			OpenMenu("skirts")
-		elseif button.name == "Spoiler" then
+		elseif button.name == "Aileron" then
 			SetVehicleModKit(car,0)
 			OpenMenu("spoiler")
 		elseif button.name == "Suspension" then
@@ -1949,7 +1949,7 @@ function ButtonSelected(button)
 		elseif button.name == "Transmission" then
 			SetVehicleModKit(car,0)
 			OpenMenu("transmission")
-		elseif button.name == "Plate" then
+		elseif button.name == "Plaque" then
 			SetVehicleModKit(car,0)
 			OpenMenu("plate")
 		elseif button.name == "Klaxon" then
@@ -1964,10 +1964,10 @@ function ButtonSelected(button)
 		elseif button.name == "Chassis" then
 			SetVehicleModKit(car,0)
 			OpenMenu("chassis")
-		elseif button.name == "Wheels" then
+		elseif button.name == "Roues" then
 			SetVehicleModKit(car,0)
 			OpenMenu("wheels")
-		elseif button.name == "Windows" then
+		elseif button.name == "Fenêtres" then
 			SetVehicleModKit(car,0)
 			OpenMenu("windows")
 		end
@@ -2072,11 +2072,11 @@ function ButtonSelected(button)
 			ToggleVehicleMod(car, button.modtype, true)
 		end 
 	elseif lsc.currentmenu == "wheels" then
-		if button.name == "Wheel Type" then
+		if button.name == "Type de Roue" then
 			OpenMenu('wheeltype')
-		elseif button.name == "Wheel Color" then
+		elseif button.name == "Couleur des Jantes" then
 			OpenMenu('wheelcolor')
-		elseif button.name == "Wheel Accessories" then
+		elseif button.name == "Accessoires de Roue" then
 			SetVehicleModKit(car,0)
 			OpenMenu("wheelaccessories")
 		end
@@ -2109,14 +2109,14 @@ function ButtonSelected(button)
 				SetVehicleModKit(car,0)
 				SetVehicleMod(car,24,mods[24].mod,false)
 			end
-		elseif button.name == "Custom Tires" then
+		elseif button.name == "Pneus Custom" then
 			SetVehicleModKit(car,0)
 			SetVehicleMod(car,23,mods[23].mod,true)
 			if IsThisModelABike(GetEntityModel(car)) then
 				SetVehicleModKit(car,0)
 				SetVehicleMod(car,24,mods[24].mod,true)
 			end
-		elseif button.name == "Bulletproof Tires" then
+		elseif button.name == "Pneus à l'épreuve des Balles" then
 			if GetVehicleTyresCanBurst(car) ~= false then
 				SetVehicleTyresCanBurst(car,false)
 			else
