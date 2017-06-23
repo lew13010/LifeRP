@@ -1,0 +1,73 @@
+Métier départ :
+
+Police
+Ambulance
+Taxi
+Depanneur
+Fossoyeur
+Livraison bois
+Mineur
+Eboueur ?
+Banquier(futur)
+
+
+Futur entreprise achetable (sur dossier complet ) :
+
+Fermier (pain)
+Brasseur (biere sans alcool)
+Livraison Petrole (ravitaillement station essence)
+Tequilala (alcool)
+Brink's (transport argent)
+
+Les entreprises :
+
+- 1 coffre fort pour le stockage (employés)
+- 1 coffre fort argent sale (patron)
+- Lieux ou prendre sont services / arrêter
+- Lieux ou prendre véhicule de travail / rendre
+- 1 interface banque pour patron avec si possible savoir qui as fait quoi (panel sur site par ex)
+
+
+Citoyen : 
+
+Montrer carte d'identité (age, sexe, ville, permis, métier)
+Donner des objets + argent et choisir la personne
+Pouvoir supprimé des objets (1 par 1)
+(Appel ambulance, police avec une raison) + taxi
+Ajout numéro tel : 111-3333 + entré nom contacte
+Réponse rapide (dernier sms)
+Historique sms
+Sms depuis véhicule
+Devoir acheter gps + tel en cas de mort
+Masque / cagoule
+
+Ambulance :
+
+Vendre bandage (restaure vie, à utilisé si pas de medecin en ville)
+Helico
+(Les citoyens feront des dons de sang, que le médecin utiliseras pour réanimé lors d'un coma??)
+
+Police : 
+
+Avis de recherche + récompense ( les balances s'exposent à une mort rp )
+
+
+Illégal :
+
+Maximum objets sur sois (15 run = 450?)
+
+Véhicule : 
+
+Système plaque volé (lscustoms)
+Stockage limité d'objets dans le coffre
+Pas pouvoir rentré garage si trop endommagé
+Système endommagement, performance diminué, peut plus roulé sous un certain seuil
+
+
+Futur ajouts :
+
+Apparement avec stockage objets + argents sale
+Permis hélico
+Permis bateau ?
+
+
