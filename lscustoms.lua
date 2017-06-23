@@ -22,24 +22,24 @@ local lsc = {
 		from = 1,
 		to = 10,
 		["bumpers"] = { 
-			title = "bumpers", 
-			name = "bumpers",
+			title = "Pare-Chocs", 
+			name = "Pare-Chocs",
 			buttons = { 
 
 			}
 		},
 		["frontbumper"] = { 
-			title = "frontbumper", 
-			name = "frontbumper",
+			title = "Pare-Chocs Avant", 
+			name = "Pare-Chocs Avant",
 			buttons = { 
-
+			--pare choc avant
 			}
 		},
 		["rearbumper"] = { 
-			title = "rearbumper", 
-			name = "rearbumper",
+			title = "Pare-Chocs Arriere", 
+			name = "Pare-Chocs Arrière",
 			buttons = { 
-
+			--pare choc arriere
 			}
 		},
 		["main"] = { 
@@ -63,17 +63,17 @@ local lsc = {
 			}
 		},
 		["grille"] = { 
-			title = "grille", 
-			name = "grille",
+			title = "Pare-Buffle", 
+			name = "Pare-Buffle",
 			buttons = { 
-				
+			--pare-buffles	
 			}
 		},
 		["hood"] = { 
-			title = "hood", 
-			name = "hood",
+			title = "Capot", 
+			name = "Capot",
 			buttons = { 
-				
+			--Capot ventilation
 			}
 		},["rollcage"] = { 
 			title = "Arceaux de Securite", 
@@ -714,7 +714,7 @@ local lsc = {
 		},
 		["wheeltype"] = { 
 			title = "Types de Roue", 
-			name = "wheeltype",
+			name = "Type de Roue",
 			buttons = { 
 				
 				{name = "Sport", wtype = false, description = "", centre = 0, font = 0, scale = 0.4},
@@ -785,7 +785,7 @@ local lsc = {
 		},
 		["offroad"] = { 
 			title = "Tout-Terrain", 
-			name = "offroad",
+			name = "Tout-Terrain",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 4, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Raider", wtype = 4, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -802,7 +802,7 @@ local lsc = {
 		},
 		["tuner"] = { 
 			title = "Tuning", 
-			name = "tuner",
+			name = "Tuning",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 5, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Cosmo", wtype = 5, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -833,7 +833,7 @@ local lsc = {
 		},
 		["highend"] = { 
 			title = "Haut de Gamme", 
-			name = "highend",
+			name = "Haut de Gamme",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 7, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Shadow", wtype = 7, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -882,7 +882,7 @@ local lsc = {
 		},
 		["muscle"] = { 
 			title = "muscle car", 
-			name = "muscle",
+			name = "muscle-car",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 1, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Classicfive", wtype = 1, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -906,7 +906,7 @@ local lsc = {
 		},
 		["frontwheel"] = { 
 			title = "Roue Avant", 
-			name = "frontwheel",
+			name = "Roue Avant",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 6, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Speedway", wtype = 6, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -926,7 +926,7 @@ local lsc = {
 		},
 		["backwheel"] = { 
 			title = "Roue Arriere", 
-			name = "backwheel",
+			name = "Roue Arrière",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 6, modtype = 24, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Speedway", wtype = 6, modtype = 24, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -1172,10 +1172,10 @@ function DriveInGarage()
 							insrt(lsc.menu["main"].buttons, {name = "Aileron", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 1 then
 							bumper = true
-							insrt(lsc.menu["bumpers"].buttons, {name = "Front Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["bumpers"].buttons, {name = "Pare-Chocs Avant", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 2 then
 							bumper = true
-							insrt(lsc.menu["bumpers"].buttons, {name = "Rear Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["bumpers"].buttons, {name = "Pare-Chocs Arrière", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 3 then
 							insrt(lsc.menu["main"].buttons, {name = "Bas de Caisse", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 4 then
@@ -1183,9 +1183,9 @@ function DriveInGarage()
 						elseif i == 5 then
 							insrt(lsc.menu["main"].buttons, {name = "Arceaux de Sécurité", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 6 then
-							insrt(lsc.menu["main"].buttons, {name = "Grille", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Pare-Buffle", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 7 then
-							insrt(lsc.menu["main"].buttons, {name = "Hood", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Capot", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 8 then
 							insrt(lsc.menu["main"].buttons, {name = "Carrosseries", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 9 then
@@ -1197,7 +1197,7 @@ function DriveInGarage()
 			end
 			
 			if bumper then
-			insrt(lsc.menu["main"].buttons, {name = "Bumpers", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Pare-Chocs", description = "", centre = 0, font = 0, scale = 0.4})
 			end
 			insrt(lsc.menu["main"].buttons, {name = "Eclairage", description = "", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Plaque", description = "", centre = 0, font = 0, scale = 0.4})
@@ -1207,8 +1207,8 @@ function DriveInGarage()
 			insrt(lsc.menu["main"].buttons, {name = "Fenêtres", description = "", centre = 0, font = 0, scale = 0.4})
 			if IsThisModelABike(GetEntityModel(veh)) then
 				lsc.menu["wheeltype"].buttons = {}
-				insrt(lsc.menu["wheeltype"].buttons, {name = "Front Wheel", wtype = 6, description = "", centre = 0, font = 0, scale = 0.4})
-				insrt(lsc.menu["wheeltype"].buttons, {name = "Back Wheel", wtype = 6, description = "", centre = 0, font = 0, scale = 0.4})
+				insrt(lsc.menu["wheeltype"].buttons, {name = "Roue Avant", wtype = 6, description = "", centre = 0, font = 0, scale = 0.4})
+				insrt(lsc.menu["wheeltype"].buttons, {name = "Roue Arrière", wtype = 6, description = "", centre = 0, font = 0, scale = 0.4})
 			end
 			--TriggerServerEvent('print',"finished main")
 			SetVehicleModKit(veh,0)	
@@ -1759,13 +1759,13 @@ Citizen.CreateThread(function()
 										drawMenuCost(button,lsc.menu.x,y,selected)
 									end
 								elseif lsc.currentmenu == "wheelaccessories" then
-									if button.name == "Stock Tires" then
+									if button.name == "Pneus Custom" then
 										if GetVehicleModVariation(veh,23) == false then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
 											drawMenuCost(button,lsc.menu.x,y,selected)
 										end
-									elseif button.name == "Custom Tires" then
+									elseif button.name == "Pneus Custom" then
 										if GetVehicleModVariation(veh,23) then
 											drawMenuOwned(lsc.menu.x,y,selected)
 										else
@@ -1909,7 +1909,7 @@ function ButtonSelected(button)
 		elseif button.name == "Freins" then
 			SetVehicleModKit(car,0)
 			OpenMenu("brakes")
-		elseif button.name == "Bumpers" then
+		elseif button.name == "Pare-Chocs" then
 			SetVehicleModKit(car,0)
 			OpenMenu("bumpers")
 		elseif button.name == "Moteur" then
@@ -1921,7 +1921,7 @@ function ButtonSelected(button)
 		elseif button.name == "Carrosseries" then
 			SetVehicleModKit(car,0)
 			OpenMenu("fenders")
-		elseif button.name == "Hood" then
+		elseif button.name == "Pare-Buffle" then
 			SetVehicleModKit(car,0)
 			OpenMenu("hood")
 		elseif button.name == "Klaxon" then
@@ -1955,7 +1955,7 @@ function ButtonSelected(button)
 		elseif button.name == "Klaxon" then
 			SetVehicleModKit(car,0)
 			OpenMenu("horn")
-		elseif button.name == "Grille" then
+		elseif button.name == "Capot" then
 			SetVehicleModKit(car,0)
 			OpenMenu("grille")
 		elseif button.name == "Turbo" then
@@ -2024,9 +2024,9 @@ function ButtonSelected(button)
 		extracol[1] = button.colorindex
 		vehiclecol[2] = button.colorindex
 	elseif lsc.currentmenu == "bumpers" then
-		if button.name == "Front Bumpers" then
+		if button.name == "Pare-Chocs Avant" then
 			OpenMenu("frontbumper")
-		elseif button.name == "Rear Bumpers" then
+		elseif button.name == "Pare-Chocs Arrière" then
 			OpenMenu("rearbumper")
 		end
 	elseif lsc.currentmenu == "lights" then
@@ -2083,10 +2083,10 @@ function ButtonSelected(button)
 	elseif lsc.currentmenu == "wheeltype" then
 		if button.name == "Stock" then
 			SetVehicleWheelType(car,-1)
-		elseif button.name == "Front Wheel" then
+		elseif button.name == "Roue Avant" then
 			SetVehicleWheelType(car,button.wtype)
 			OpenMenu("frontwheel")
-		elseif button.name == "Back Wheel" then
+		elseif button.name == "Roue Arrière" then
 			SetVehicleWheelType(car,button.wtype)
 			OpenMenu("backwheel")
 		else
@@ -2102,7 +2102,7 @@ function ButtonSelected(button)
 	elseif lsc.currentmenu == "windows" then
 		windowtint = button.tint
 	elseif lsc.currentmenu == "wheelaccessories" then
-		if button.name == "Stock Tires" then
+		if button.name == "Pneus Custom" then
 			SetVehicleModKit(car,0)
 			SetVehicleMod(car,23,mods[23].mod,false)
 			if IsThisModelABike(GetEntityModel(car)) then
