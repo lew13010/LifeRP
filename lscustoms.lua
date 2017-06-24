@@ -22,22 +22,22 @@ local lsc = {
 		from = 1,
 		to = 10,
 		["bumpers"] = { 
-			title = "Pare-Chocs", 
-			name = "Pare-Chocs",
+			title = "Pare Chocs", 
+			name = "Pare Chocs",
 			buttons = { 
 
 			}
 		},
 		["frontbumper"] = { 
-			title = "Pare-Chocs Avant", 
-			name = "Pare-Chocs Avant",
+			title = "Pare Chocs Avant", 
+			name = "Pare Chocs Avant",
 			buttons = { 
 			--pare choc avant
 			}
 		},
 		["rearbumper"] = { 
-			title = "Pare-Chocs Arriere", 
-			name = "Pare-Chocs Arrière",
+			title = "Pare Chocs Arriere", 
+			name = "Pare Chocs Arrière",
 			buttons = { 
 			--pare choc arriere
 			}
@@ -63,8 +63,8 @@ local lsc = {
 			}
 		},
 		["grille"] = { 
-			title = "Pare-Buffle", 
-			name = "Pare-Buffle",
+			title = "Pare Buffle", 
+			name = "Pare Buffle",
 			buttons = { 
 			--pare-buffles	
 			}
@@ -721,7 +721,7 @@ local lsc = {
 				{name = "Muscle Car", wtype = 1, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Lowrider", wtype = 2, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Suv", wtype = 3, description = "", centre = 0, font = 0, scale = 0.4},
-				{name = "Tout-Terrain", wtype = 4, description = "", centre = 0, font = 0, scale = 0.4},
+				{name = "Tout Terrain", wtype = 4, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Tuning", wtype = 5, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Haut de Gamme", wtype = 7, description = "", centre = 0, font = 0, scale = 0.4},
 			}
@@ -784,8 +784,8 @@ local lsc = {
 			}
 		},
 		["offroad"] = { 
-			title = "Tout-Terrain", 
-			name = "Tout-Terrain",
+			title = "Tout Terrain", 
+			name = "Tout Terrain",
 			buttons = { 
 				{name = "Jantes de Série", wtype = 4, modtype = 23, mod = -1, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
 				{name = "Raider", wtype = 4, modtype = 23, mod = false, costs = 0, description = "", centre = 0, font = 0, scale = 0.4},
@@ -1172,10 +1172,10 @@ function DriveInGarage()
 							insrt(lsc.menu["main"].buttons, {name = "Aileron", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 1 then
 							bumper = true
-							insrt(lsc.menu["bumpers"].buttons, {name = "Pare-Chocs Avant", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["bumpers"].buttons, {name = "Pare Chocs Avant", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 2 then
 							bumper = true
-							insrt(lsc.menu["bumpers"].buttons, {name = "Pare-Chocs Arrière", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["bumpers"].buttons, {name = "Pare Chocs Arrière", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 3 then
 							insrt(lsc.menu["main"].buttons, {name = "Bas de Caisse", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 4 then
@@ -1183,7 +1183,7 @@ function DriveInGarage()
 						elseif i == 5 then
 							insrt(lsc.menu["main"].buttons, {name = "Arceaux de Sécurité", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 6 then
-							insrt(lsc.menu["main"].buttons, {name = "Pare-Buffle", description = "", centre = 0, font = 0, scale = 0.4})
+							insrt(lsc.menu["main"].buttons, {name = "Pare Buffle", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 7 then
 							insrt(lsc.menu["main"].buttons, {name = "Capot", description = "", centre = 0, font = 0, scale = 0.4})
 						elseif i == 8 then
@@ -1197,7 +1197,7 @@ function DriveInGarage()
 			end
 			
 			if bumper then
-			insrt(lsc.menu["main"].buttons, {name = "Pare-Chocs", description = "", centre = 0, font = 0, scale = 0.4})
+			insrt(lsc.menu["main"].buttons, {name = "Pare Chocs", description = "", centre = 0, font = 0, scale = 0.4})
 			end
 			insrt(lsc.menu["main"].buttons, {name = "Eclairage", description = "", centre = 0, font = 0, scale = 0.4})
 			insrt(lsc.menu["main"].buttons, {name = "Plaque", description = "", centre = 0, font = 0, scale = 0.4})
@@ -1909,7 +1909,7 @@ function ButtonSelected(button)
 		elseif button.name == "Freins" then
 			SetVehicleModKit(car,0)
 			OpenMenu("brakes")
-		elseif button.name == "Pare-Chocs" then
+		elseif button.name == "Pare Chocs" then
 			SetVehicleModKit(car,0)
 			OpenMenu("bumpers")
 		elseif button.name == "Moteur" then
@@ -1921,7 +1921,7 @@ function ButtonSelected(button)
 		elseif button.name == "Carrosseries" then
 			SetVehicleModKit(car,0)
 			OpenMenu("fenders")
-		elseif button.name == "Pare-Buffle" then
+		elseif button.name == "Capot" then
 			SetVehicleModKit(car,0)
 			OpenMenu("hood")
 		elseif button.name == "Klaxon" then
@@ -1955,7 +1955,7 @@ function ButtonSelected(button)
 		elseif button.name == "Klaxon" then
 			SetVehicleModKit(car,0)
 			OpenMenu("horn")
-		elseif button.name == "Capot" then
+		elseif button.name == "Pare Buffle" then
 			SetVehicleModKit(car,0)
 			OpenMenu("grille")
 		elseif button.name == "Turbo" then
@@ -2024,9 +2024,9 @@ function ButtonSelected(button)
 		extracol[1] = button.colorindex
 		vehiclecol[2] = button.colorindex
 	elseif lsc.currentmenu == "bumpers" then
-		if button.name == "Pare-Chocs Avant" then
+		if button.name == "Pare Chocs Avant" then
 			OpenMenu("frontbumper")
-		elseif button.name == "Pare-Chocs Arrière" then
+		elseif button.name == "Pare Chocs Arrière" then
 			OpenMenu("rearbumper")
 		end
 	elseif lsc.currentmenu == "lights" then
@@ -2065,7 +2065,7 @@ function ButtonSelected(button)
 		SetVehicleMod(car,button.modtype,button.mod)
 		end
 	elseif lsc.currentmenu == "turbo" then
-		if button.name == "None" then
+		if button.name == "Aucun" then
 			ToggleVehicleMod(car, button.modtype, false)
 		
 		elseif button.name == "Turbo Tuning" then
